@@ -116,7 +116,7 @@ for row in news_df.iterrows():
     diff = newest_val - row_time
     
     ## If the difference is less than or equal to an hour, then execute SQL statement inside if statement code block.
-    if diff <= pd.Timedelta(1, 'h'):
+    if diff < pd.Timedelta(1, 'h'):
         
         ## Updates table in database with recent data from DataFrame.
         sql = f"""
