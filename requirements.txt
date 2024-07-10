@@ -1,3 +1,5 @@
-python-dotenv
+streamlit==1.36.0
 psycopg2-binary
 pandas
+wordcloud==1.9.3
+matplotlib==3.9.1
