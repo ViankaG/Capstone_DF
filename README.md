@@ -12,5 +12,8 @@ There is a bug with the multi-select stopwords feature in my Streamlit app. You 
 # Important Features
 I created a wordcloud in my Streamlit app that includes all of the important words from all the titles of all the articles that have been loaded into the database. When different categories of articles are selected, different wordclouds are displayed each time.
 
+# Link to my dashboard
+https://capstonevg.streamlit.app/
+
 # API Reference
 https://newsapi.org/
